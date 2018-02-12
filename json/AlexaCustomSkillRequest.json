@@ -1,54 +1,81 @@
 {
+	"version": "1.0",
 	"session": {
-		"sessionId": "SessionId.454545445",
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.c9351a94-fbd0-4494-ae5f-c46e4a2e811e",
 		"application": {
-			"applicationId": "amzn1.ask.skill.454545454545"
-		},
-		"attributes": {
-			
+			"applicationId": "amzn1.ask.skill.5f479248-b5a3-4c8a-82e8-f24bd79a7604"
 		},
 		"user": {
-			"userId": "amzn1.ask.account.454554545545",
-			"accessToken": null
-		},
-		"new": false
-	},
-	"request": {
-		"intent": {
-			"name": "getJoke",
-			"slots": {
-				"firstName": {
-					"name": "firstName",
-					"value": "myname"
-				},
-				"lastName": {
-					"name": "lastName",
-					"value": "mylastname"
-				}
-			}
-		},
-		"requestId": "EdwRequestId.retrttrtrdfbfdhd",
-		"type": "IntentRequest",
-		"locale": "en-GB",
-		"timestamp": "2018-02-12T10:41:52Z"
+			"userId": "amzn1.ask.account.AHOOZRWCNNJAGR3IDAAU3EXX7XPU4UCIZDB7KD5WHSKDWMXM7L2W2M5YTBTKTTIZGH77DAUEX525EP5ES65W456QEUSC7GPZHKEXAXYEIKHPU36FM5D67EJPAIT2TP3CAEGPOUTQV3XNGIZPZVEYVRI6IDGQCZDQ3U7OHUU3IGCMCZEWU3RKYQWEVVXE4BN7IDKP6B26RHMD57Q"
+		}
 	},
 	"context": {
 		"AudioPlayer": {
 			"playerActivity": "IDLE"
 		},
+		"Display": {
+			"token": ""
+		},
 		"System": {
 			"application": {
-				"applicationId": "amzn1.ask.skill.trtrtrettterttertet"
+				"applicationId": "amzn1.ask.skill.5f479248-b5a3-4c8a-82e8-f24bd79a7604"
 			},
 			"user": {
-				"userId": "amzn1.ask.account.454554545545"
+				"userId": "amzn1.ask.account.AHOOZRWCNNJAGR3IDAAU3EXX7XPU4UCIZDB7KD5WHSKDWMXM7L2W2M5YTBTKTTIZGH77DAUEX525EP5ES65W456QEUSC7GPZHKEXAXYEIKHPU36FM5D67EJPAIT2TP3CAEGPOUTQV3XNGIZPZVEYVRI6IDGQCZDQ3U7OHUU3IGCMCZEWU3RKYQWEVVXE4BN7IDKP6B26RHMD57Q"
 			},
 			"device": {
+				"deviceId": "amzn1.ask.device.AFCALYOCO4FTFFPN4HZWCF3KGKRHGJX3XCTQANIU7QD52SS3URMJPLWO4YHDMSJKMLUVMQUX774JEVHSX2G6AQ53SOZ4QYOSI7EQHZ226A24G5Y76ZRCD4CBM2O6SEDY4QLHFSLOOVMV2LIZZE75JBLHFRQA",
 				"supportedInterfaces": {
-					
+					"AudioPlayer": {},
+					"Display": {
+						"templateVersion": "1.0",
+						"markupVersion": "1.0"
+					}
+				}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjVmNDc5MjQ4LWI1YTMtNGM4YS04MmU4LWYyNGJkNzlhNzYwNCIsImV4cCI6MTUxODQ0NDQwMywiaWF0IjoxNTE4NDQwODAzLCJuYmYiOjE1MTg0NDA4MDMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZDQUxZT0NPNEZURkZQTjRIWldDRjNLR0tSSEdKWDNYQ1RRQU5JVTdRRDUyU1MzVVJNSlBMV080WUhETVNKS01MVVZNUVVYNzc0SkVWSFNYMkc2QVE1M1NPWjRRWU9TSTdFUUhaMjI2QTI0RzVZNzZaUkNENENCTTJPNlNFRFk0UUxIRlNMT09WTVYyTElaWkU3NUpCTEhGUlFBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUhPT1pSV0NOTkpBR1IzSURBQVUzRVhYN1hQVTRVQ0laREI3S0Q1V0hTS0RXTVhNN0wyVzJNNVlUQlRLVFRJWkdINzdEQVVFWDUyNUVQNUVTNjVXNDU2UUVVU0M3R1BaSEtFWEFYWUVJS0hQVTM2Rk01RDY3RUpQQUlUMlRQM0NBRUdQT1VUUVYzWE5HSVpQWlZFWVZSSTZJREdRQ1pEUTNVN09IVVUzSUdDTUNaRVdVM1JLWVFXRVZWWEU0Qk43SURLUDZCMjZSSE1ENTdRIn19.VVZyY_81pNgMD_MY7lsD2BJQsVAk0y_tS3fHlg0Cmjc8zHh_ifr2z_OlXXeBcuytv1EopruIzSMi9MRAvXbE_Q7FI3Q9CarS_CwAx5tzuqt54LgQVp18w6XcjwtEQDFQ6PJs9J2o3XknK9_3AdQqVipQriTLaA_3F73zav-7cG-3EP6ny3WoY_GVEkhsEpJ3nqwSqNNboEvBca_U5dMWtnHMYHNNqkMPW51rCenBlmVPR_eIWrlh61l4R5b8EGLOHs3DVogp5zQLh7cI1pW6JKCGbJiLps6hsy1jddRaJrmHZuFSSSfj5LqAewdS5HKH6o5VNL2QpY5KDNxriWftXA"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.0cd8f87d-80a8-4e80-ad4c-6e431b48e065",
+		"timestamp": "2018-02-12T13:06:43Z",
+		"locale": "en-GB",
+		"intent": {
+			"name": "getJoke",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"firstName": {
+					"name": "firstName",
+					"value": "George",
+					"confirmationStatus": "NONE"
+				},
+				"lastName": {
+					"name": "lastName",
+					"value": "smith",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5f479248-b5a3-4c8a-82e8-f24bd79a7604.LAST_NAME",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Smith",
+											"id": "e95f770ac4fb91ac2e4873e4b2dfc0e6"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE"
 				}
 			}
 		}
-	},
-	"version": "1.0"
+	}
 }
