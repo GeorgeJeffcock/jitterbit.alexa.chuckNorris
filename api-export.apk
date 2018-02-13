@@ -1,0 +1,17 @@
+{
+  "apis" : [ {
+    "publicName" : "/MyAlexaSkills",
+    "description" : "",
+    "version" : "",
+    "timeout" : 30,
+    "enableCORS" : false,
+    "methods" : [ {
+      "method" : "POST",
+      "projectName" : "MyAlexaSkill",
+      "operationName" : "MyAlexaSkillsOperation(API)",
+      "responseType" : "FINAL_TARGET"
+    } ],
+    "sslonly" : true,
+    "apiname" : "MyAlexaSkills"
+  } ]
+}
