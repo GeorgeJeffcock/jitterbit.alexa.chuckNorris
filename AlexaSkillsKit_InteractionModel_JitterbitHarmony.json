@@ -1,107 +1,122 @@
 {
-	"languageModel": {
-		"types": [{
-			"name": "LAST_NAME",
-			"values": [{
-				"id": null,
-				"name": {
-					"value": "Smith",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Jones",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Taylor",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Williams",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Brown",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Davies",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Evans",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Wilson",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Thomas",
-					"synonyms": []
-				}
-			},
-			{
-				"id": null,
-				"name": {
-					"value": "Roberts",
-					"synonyms": []
-				}
-			}]
-		}],
-		"intents": [{
-			"name": "AMAZON.CancelIntent",
-			"samples": []
-		},
-		{
-			"name": "AMAZON.HelpIntent",
-			"samples": []
-		},
-		{
-			"name": "AMAZON.StopIntent",
-			"samples": []
-		},
-		{
-			"name": "getJoke",
-			"samples": ["getJoke can I have a joke about {firstName} {lastName} from Jitterbit Harmon",
-			"getJoke can I have a joke from Jitterbit Harmony",
-			"getJoke please give me a joke from Jitterbit Harmony",
-			"getJoke for a joke for {firstName} {lastName}",
-			"getJoke for a joke for {firstName}",
-			"getJoke for a joke about {firstName}"],
-			"slots": [{
-				"name": "firstName",
-				"type": "AMAZON.GB_FIRST_NAME"
-			},
-			{
-				"name": "lastName",
-				"type": "LAST_NAME"
-			}]
-		}],
-		"invocationName": "jitterbit harmony"
-	}
+  "languageModel": {
+    "types": [
+      {
+        "name": "LAST_NAME",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Smith",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jones",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Taylor",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Williams",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Brown",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Davies",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Evans",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Wilson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thomas",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Roberts",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "getJoke",
+        "samples": [
+          "getJoke can I have a joke about {firstName} {lastName} from Jitterbit Harmony",
+          "getJoke can I have a joke from Jitterbit Harmony",
+          "getJoke please give me a joke from Jitterbit Harmony",
+          "getJoke for a joke for {firstName} {lastName}",
+          "getJoke for a joke for {firstName}",
+          "getJoke for a joke about {firstName}",
+          "give me a chuck fact",
+          "give me a chuck norris joke",
+          "tell me a chuck norris fact",
+          "tell me about chuck norris",
+          "tell me about {firstName} {lastName}"
+        ],
+        "slots": [
+          {
+            "name": "firstName",
+            "type": "AMAZON.GB_FIRST_NAME"
+          },
+          {
+            "name": "lastName",
+            "type": "LAST_NAME"
+          }
+        ]
+      }
+    ],
+    "invocationName": "jitterbit harmony"
+  }
 }
